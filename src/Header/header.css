@@ -1,0 +1,343 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+body{
+    overflow-x: hidden;
+    height: 4000px;
+}
+
+header{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 1100px;
+    background: #FEDDD0;
+    position: relative;
+}
+
+.container{
+    /* border: 1px solid red; */
+    height: 3080px;
+}
+
+.container nav{
+    /* border: 1px solid blue; */
+    width: 100%;
+    height: 52px;
+    position: relative;
+    top: 20px;
+}
+
+.logo{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 130px;
+    height: 22px;
+    top: 15px;
+    background: url('../image/logo.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+header ul{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 432px;
+    height: 26px;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 0;
+    left: 220px;
+    top: 15px;
+    font-weight: 700;
+    color: #424551;
+    font-size: 16px;
+}
+
+header .get{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 207px;
+    height: 52px;
+    left: 844px;
+    background-color: #F15114;
+    border-radius: 4px;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+}
+
+.login{
+    /* border: 1px solid blue; */
+    width: 153px;
+    height: 26px;
+    position: absolute;
+    left: 1100px;
+    top: 13px;
+}
+
+header .bi-person{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    font-size: 22px;
+    padding-top: 0;
+    display: flex;
+    top: 2px;
+    font-weight: 700;
+    left: -5px;
+}
+
+.login-form{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 125px;
+    height: 26px;
+    font-size: 16px;
+    left: 26px;
+    font-weight: 700;
+}
+
+.play-showrel{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 182px;
+    height: 84px;
+    top: 172px;
+}
+
+.img-showrel{
+    /* border: 1px solid blue; */
+    width: 84px;
+    height: 84px;
+    background-image: url('../image/hover.png');
+
+}
+
+.showreel-text{
+    /* border: 1px solid red; */
+    position: absolute;
+    font-weight: 700;
+    font-size: 14px;
+    top: 30px;
+    left: 88px;
+    width: 93px;
+}
+
+.enjoy-text{
+    /* border: 1px solid red; */
+    width: 496px;
+    height: 249px;
+    position: absolute;
+    top: 290px;
+    font-size: 64px;
+    line-height: 83.2px;
+    font-weight: 700;
+
+}
+
+.about{
+    border: 2px solid #F15114;
+    position: absolute;
+    width: 148px;
+    height: 52px;
+    color: #F15114;
+    background-color: #FEDDD0;
+    border-radius: 4px;
+    top: 600px;
+}
+
+.Explore{
+    border: 2px solid #F15114;
+    position: absolute;
+    width: 201px;
+    height: 52px;
+    color: #fff;
+    background-color: #F15114;
+    border-radius: 4px;
+    top: 600px;
+    left: 175px;
+}
+
+.header-img{
+position: absolute;
+/* border: 1px solid red; */
+width: 602px;
+height: 551px;
+top: 160px;
+left: 705px;
+background: url('../image/illustration.png');
+}
+
+.static-grid{
+    /* border: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    position: absolute;
+    top: 940px;
+    display: grid;
+    grid-template-columns: 324px 324px 324px 323px;
+    grid-template-rows: 60px;
+
+}
+
+.static-grid .item-1{
+    /* border: 3px solid rgb(16, 16, 206); */
+}
+
+.static-grid .item-1 h1{
+/* border: 1px solid black; */
+width: 107px;
+height: 60px;
+font-weight: 900;
+font-size: 46px;
+line-height: 59px;
+position: absolute;
+top: -4px;
+font-family: sans-serif;
+padding-left: 1px;
+}
+
+.static-grid .item-2{
+    /* border: 3px solid rgb(16, 16, 206); */
+}
+
+.static-grid .item-2 h1{
+    /* border: 1px solid black; */
+    width: 107px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59px;
+    position: absolute;
+    top: -4px;
+    font-family: sans-serif;
+    padding-left: 1px;
+    left: 15px;
+    }
+
+.static-grid .item-3{
+    /* border: 3px solid rgb(16, 16, 206); */
+}
+
+.static-grid .item-3 h1{
+    /* border: 1px solid black; */
+    width: 107px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59px;
+    position: absolute;
+    top: -4px;
+    font-family: sans-serif;
+    padding-left: 1px;
+    left:85px;
+    }
+
+.static-grid .item-4{
+    /* border: 3px solid rgb(16, 16, 206); */
+}
+
+.static-grid .item-4 h1{
+    /* border: 1px solid black; */
+    width: 107px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59px;
+    position: absolute;
+    top: -4px;
+    font-family: sans-serif;
+    padding-left: 1px;
+    left: 80px;
+    }
+
+
+.static-grid .item-1 p{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 142px;
+    height: 26px;
+    font-size: 16px;
+    left: 135px;
+    top: 14px;
+    font-weight: 400;
+}
+
+
+
+.static-grid .item-2 p{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 142px;
+    height: 26px;
+    font-size: 16px;
+    left: 160px;
+    top: 14px;
+    font-weight: 400;
+}
+
+
+
+
+.static-grid .item-3 p{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 142px;
+    height: 26px;
+    font-size: 16px;
+    left: 170px;
+    top: 14px;
+    font-weight: 400;
+}
+
+
+
+.static-grid .item-4 p{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 142px;
+    height: 26px;
+    font-size: 16px;
+    left: 125px;
+    top: 14px;
+    font-weight: 400;
+}
+
+.static-grid .dot1{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 8px;
+    height: 8px;
+    background: #FF3F3A;
+    border-radius: 50%;
+    left: 295px;
+    top: 22px;
+}
+
+.static-grid .dot2{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 8px;
+    height: 8px;
+    background: #FF3F3A;
+    border-radius: 50%;
+    left: 355px;
+    top: 22px;
+}
+
+.static-grid .dot3{
+    position: absolute;
+    /* border: 1px solid red; */
+    width: 8px;
+    height: 8px;
+    background: #FF3F3A;
+    border-radius: 50%;
+    left: 350px;
+    top: 22px;
+}
