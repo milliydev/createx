@@ -1,0 +1,282 @@
+.MainTwo {
+    border: 1px solid red;
+    width: 100%;
+    height: 850px;
+    position: relative;
+    left: 0;
+    top: 1150px;
+    background: #FEDCD2;
+}
+
+
+.container {
+    border: 2px solid blue;
+
+}
+
+
+
+
+.Our-text {
+    border: 1px solid red;
+    width: 120px;
+    height: 24px;
+    position: relative;
+    top: 80px;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin: auto;
+}
+
+.lectures {
+    border: 1px solid red;
+    width: 540px;
+    height: 60px;
+    position: relative;
+    top: 120px;
+    text-align: center;
+    font-weight: 900;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 46px;
+    margin: auto;
+}
+
+.grid-containerStatic {
+    /* border: 3px solid red; */
+    width: 1100px;
+    height: 500px;
+    margin: auto;
+    position: relative;
+    top: 200px;
+    display: grid;
+    grid-template-columns: 1300px;
+    grid-template-rows: 126px 126px 126px;
+    grid-row-gap: 40px;
+    left: -100px;
+}
+
+.grid-containerStatic .item-1 {
+    border: 1px solid blue;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.grid-containerStatic .item-1 .day {
+    /* border: 1px solid red; */
+    width: 57px;
+    height: 82px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 900;
+    color: #FF3F3A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 35px;
+    left: 35px;
+
+}
+
+.grid-containerStatic .item-2 {
+    border: 1px solid blue;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.grid-containerStatic .item-2 .day {
+    /* border: 1px solid red; */
+    width: 57px;
+    height: 82px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 900;
+    color: #FF3F3A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 35px;
+    left: 35px;
+
+}
+
+
+.grid-containerStatic .item-3 {
+    border: 1px solid blue;
+    background: #fff;
+    border-radius: 4px;
+}
+
+.grid-containerStatic .item-3 .day {
+    /* border: 1px solid red; */
+    width: 57px;
+    height: 82px;
+    position: absolute;
+    font-size: 48px;
+    line-height: 62.4px;
+    font-weight: 900;
+    color: #FF3F3A;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    top: 35px;
+    left: 35px;
+}
+
+.grid-containerStatic .item-1 .month {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #1E212C;
+    font-family: sans-serif;
+    top: 32px;
+    left: 120px;
+}
+
+.grid-containerStatic .item-2 .month {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #1E212C;
+    font-family: sans-serif;
+    top: 32px;
+    left: 120px;
+}
+
+
+.grid-containerStatic .item-3 .month {
+    /* border: 1px solid red; */
+    width: 100px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 700;
+    color: #1E212C;
+    font-family: sans-serif;
+    top: 32px;
+    left: 120px;
+}
+
+.grid-containerStatic .item-1 .date {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 64px;
+    left: 118px;
+    color: #787A80;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.grid-containerStatic .item-2 .date {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 64px;
+    left: 118px;
+    color: #787A80;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.grid-containerStatic .item-3 .date {
+    /* border: 1px solid red; */
+    position: absolute;
+    top: 64px;
+    left: 118px;
+    color: #787A80;
+    font-size: 16px;
+    font-weight: 400;
+
+}
+
+.grid-containerStatic .item-1 .formating{
+    /* border: 1px solid red; */
+    width: 757px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    font-size: 19px;
+    color: #1E212C;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-containerStatic .item-2 .formating{
+    /* border: 1px solid red; */
+    width: 757px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    font-size: 19px;
+    color: #1E212C;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-containerStatic .item-3 .formating{
+    /* border: 1px solid red; */
+    width: 757px;
+    height: 30px;
+    position: absolute;
+    top: 30px;
+    left: 240px;
+    font-size: 19px;
+    color: #1E212C;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.grid-containerStatic .item-1 .online{
+    /* border: 1px solid red; */
+    width:140px;
+    height: 26px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    color:#787A80;
+    left: 240px;
+    top: 61px;
+
+
+}
+
+.grid-containerStatic .item-2 .online{
+    /* border: 1px solid red; */
+    width:140px;
+    height: 26px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    color:#787A80;
+    left: 240px;
+    top: 61px;
+
+
+}
+
+.grid-containerStatic .item-3 .online{
+    /* border: 1px solid red; */
+    width:140px;
+    height: 26px;
+    position: absolute;
+    font-size: 16px;
+    line-height: 25.6px;
+    font-weight: 400;
+    color:#787A80;
+    left: 240px;
+    top: 61px;
+    left: 10px;
+
+
+}
