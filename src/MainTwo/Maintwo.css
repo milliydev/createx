@@ -1,7 +1,7 @@
 .MainTwo {
     border: 1px solid red;
     width: 100%;
-    height: 850px;
+    height: 890px;
     position: relative;
     left: 0;
     top: 1150px;
@@ -10,7 +10,7 @@
 
 
 .container {
-    border: 2px solid blue;
+    /* border: 2px solid blue; */
 
 }
 
@@ -18,7 +18,7 @@
 
 
 .Our-text {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 120px;
     height: 24px;
     position: relative;
@@ -31,7 +31,7 @@
 }
 
 .lectures {
-    border: 1px solid red;
+    /* border: 1px solid red; */
     width: 540px;
     height: 60px;
     position: relative;
@@ -58,7 +58,7 @@
 }
 
 .grid-containerStatic .item-1 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background: #fff;
     border-radius: 4px;
 }
@@ -79,7 +79,7 @@
 }
 
 .grid-containerStatic .item-2 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background: #fff;
     border-radius: 4px;
 }
@@ -101,7 +101,7 @@
 
 
 .grid-containerStatic .item-3 {
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     background: #fff;
     border-radius: 4px;
 }
@@ -196,7 +196,7 @@
 
 }
 
-.grid-containerStatic .item-1 .formating{
+.grid-containerStatic .item-1 .formating {
     /* border: 1px solid red; */
     width: 757px;
     height: 30px;
@@ -209,7 +209,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.grid-containerStatic .item-2 .formating{
+.grid-containerStatic .item-2 .formating {
     /* border: 1px solid red; */
     width: 757px;
     height: 30px;
@@ -222,7 +222,7 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.grid-containerStatic .item-3 .formating{
+.grid-containerStatic .item-3 .formating {
     /* border: 1px solid red; */
     width: 757px;
     height: 30px;
@@ -235,48 +235,462 @@
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.grid-containerStatic .item-1 .online{
+.grid-containerStatic .item-1 .online {
     /* border: 1px solid red; */
-    width:140px;
+    width: 140px;
     height: 26px;
     position: absolute;
     font-size: 16px;
     line-height: 25.6px;
     font-weight: 400;
-    color:#787A80;
+    color: #787A80;
     left: 240px;
     top: 61px;
 
 
 }
 
-.grid-containerStatic .item-2 .online{
+.grid-containerStatic .item-2 .online {
     /* border: 1px solid red; */
-    width:140px;
+    width: 140px;
     height: 26px;
     position: absolute;
     font-size: 16px;
     line-height: 25.6px;
     font-weight: 400;
-    color:#787A80;
+    color: #787A80;
     left: 240px;
     top: 61px;
 
 
 }
 
-.grid-containerStatic .item-3 .online{
+.grid-containerStatic .item-3 .online {
     /* border: 1px solid red; */
-    width:140px;
+    width: 140px;
     height: 26px;
     position: absolute;
     font-size: 16px;
     line-height: 25.6px;
     font-weight: 400;
-    color:#787A80;
+    color: #787A80;
     left: 240px;
     top: 61px;
-    left: 10px;
+}
 
 
+.grid-containerStatic .item-1 button {
+    border: 2px solid #F15114;
+    position: absolute;
+    width: 136px;
+    height: 44px;
+    border-radius: 4px;
+    background: #fff;
+    color: #F15114;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    left: 1050px;
+    top: 40px;
+
+}
+
+.grid-containerStatic button:hover {
+    background-color: #e2480b;
+    color: #fff;
+    transition: all 0.9s ease;
+}
+
+.grid-containerStatic button {
+    border: 2px solid #F15114;
+    position: absolute;
+    width: 136px;
+    height: 44px;
+    border-radius: 4px;
+    background: #fff;
+    color: #F15114;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    left: 1050px;
+    top: 40px;
+}
+
+.grid-containerStatic button {
+    border: 2px solid #F15114;
+    position: absolute;
+    width: 136px;
+    height: 44px;
+    border-radius: 4px;
+    background: #fff;
+    color: #F15114;
+    font-size: 14px;
+    font-weight: 700;
+    font-family: sans-serif;
+    left: 1050px;
+    top: 40px;
+}
+
+.do-you {
+    /* border: 1px solid red; */
+    width: 260px;
+    height: 42px;
+    font-size: 28px;
+    line-height: 42px;
+    font-weight: 700;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    position: absolute;
+    color: #1E212C;
+    top: 180px;
+    left: 350px;
+
+}
+
+.btn-explore{
+    /* border: 1px solid red; */
+    width: 215px;
+    height: 52px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    left: 650px;
+    top: 175px;
+    background:#FA511B;
+    color: #fff;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 52px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.Certificate{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 100%;
+    height: 500px;
+    left: 0;
+    top: 889px;
+
+}
+
+.createx-certifecat{
+    /* border: 1px solid red; */
+    width: 190px;
+    height: 24px;
+    position: absolute;
+    line-height: 24px;
+    font-size: 16px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+    color:#1E212C;
+    top: 90px;
+    font-weight: 700;
+}
+
+.your{
+    /* border: 1px solid red; */
+    width: 480px;
+    height: 120px;
+    position: absolute;
+    line-height: 59.8px;
+    font-size: 46px;
+    font-family: sans-serif;    
+    color:#1E212C;
+    top: 120px;
+    font-weight: 800;
+    /* padding: 10px; */
+}
+
+.weAre{
+    /* border: 1px solid red; */
+    width: 390px;
+    height: 52px;
+    position: absolute;
+    font-family: sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 25.6px;
+    top: 310px;
+}
+
+.img-del{
+    /* border: 1px solid red; */
+    width: 105px;
+    height: 50px;
+    top: 410px;
+    background: url('../image/Del\ Mar\ Strategy\ Logo\ 1.png');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.img-sentinal{
+    /* border: 1px solid red; */
+    width: 105px;
+    height: 50px;
+    top: 410px;
+    left: 170px;
+    position: absolute;
+    background: url('../image/logo.svg');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.img-national{
+    /* border: 1px solid red; */
+    width: 105px;
+    height: 50px;
+    top: 410px;
+    left: 340px;
+    position: absolute;
+    background: url('../image/National\ Health\ Logo\ 1.svg');
+    background-size: contain;
+    background-repeat: repeat;
+}
+
+.img-certificate{
+    /* border: 1px solid red; */
+    margin-left: 530px;
+  
+  
+}
+
+.team{
+    /* border: 1px solid red; */
+    position: relative;
+    width: 100%;
+    height: 1500px;
+    top: -1680px;
+    z-index: -1;
+    background-color: #F4F5F6;
+}
+
+.best-text{
+    /* border: 1px solid red; */
+    position: absolute;
+    width: 235px;
+    height: 24px;
+    font-size: 16px;
+    line-height: 24px;
+    color: #1E212C;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 120px;
+    font-weight: 700;
+}
+
+.met-text{
+    /* border: 1px solid red; */
+    width: 310px;
+    height: 60px;
+    font-weight: 900;
+    font-size: 46px;
+    line-height: 59.8px;
+    font-family:  'Lucida Grande';
+    position: absolute;
+    top: 150px;
+}
+.grid-cards{
+    /* border: 1px solid red; */
+    width: 98%;
+    height: 416px;
+    position:absolute;
+    top: 280px;
+    display: grid;
+    grid-template-columns: 285px 285px 285px 285px;
+    grid-template-rows: 416px;
+    grid-column-gap:50px;
+    left: 15px;
+
+ 
+}
+
+.grid-cards .item-1{
+    /* border: 1px solid blue; */
+}
+
+.grid-cards .item-1 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+    background-color:#FFCF2D;
+    background-image: url('../image/image2.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+.grid-cards .item-2 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+    background-color:#FFCF2D;
+    background-image: url('../image/image2.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+
+
+.grid-cards .item-3 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+    background-color:#FFCF2D;
+    background-image: url('../image/image2.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+}
+
+.grid-cards .item-4 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+    background-color:#FFCF2D;
+    background-image: url('../image/image2.jpg');
+    background-size: cover;
+    z-index: 1;
+    position: relative;
+    background-repeat: no-repeat;
+}
+.grid-cards .item-2 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+}
+
+
+.grid-cards .item-3 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+}
+
+
+.grid-cards .item-4 .img{
+    /* border: 1px solid blue; */
+    height: 340px;
+}
+
+
+
+
+.grid-cards .item-2{
+    /* border: 1px solid blue; */
+}
+
+
+.grid-cards .item-3{
+    /* border: 1px solid blue; */
+}
+
+.grid-cards .item-4{
+    /* border: 1px solid blue; */
+}
+
+.grid-cards .item-1 p{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    text-align: center;
+    font-weight: 700;
+    top: 345px;
+    z-index: 5;
+}
+
+.grid-cards .item-1 h5{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    text-align: center;
+    font-weight: 400;
+    top: 40px;
+}
+
+
+.grid-cards .item-2 p{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    text-align: center;
+    font-weight: 700;
+    top: 345px;
+    z-index: 5;
+}
+
+.grid-cards .item-2 h5{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    text-align: center;
+    font-weight: 400;
+    top: 40px;
+}
+
+
+.grid-cards .item-3 p{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    text-align: center;
+    font-weight: 700;
+    top: 345px;
+    z-index: 5;
+}
+
+.grid-cards .item-3 h5{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    text-align: center;
+    font-weight: 400;
+    top: 40px;
+}
+
+
+.grid-cards .item-4 p{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: absolute;
+    font-size: 20px;
+    left: 0px;
+    text-align: center;
+    font-weight: 700;
+    top: 345px;
+    z-index: 5;
+}
+
+.grid-cards .item-4 h5{
+    /* border: 1px solid black; */
+    width: 285px;
+    height: 30px;
+    position: relative;
+    font-size: 16px;
+    left: 0px;
+    text-align: center;
+    font-weight: 400;
+    top: 40px;
+}
+
+.Slider{
+    /* border: 1px solid red; */
+    width: 100%;
 }

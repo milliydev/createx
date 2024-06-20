@@ -14,7 +14,7 @@ main .main-img{
     position: absolute;
     left: 0;
     top: 150px;
-    background: url('../image/image.png');
+    background: url('../image/lap.svg');
 }
 
 main p{
